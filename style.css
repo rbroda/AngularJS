@@ -1,0 +1,53 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background: linear-gradient(to right, #f857a6, #ff5858);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 200px;
+}
+#app {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    width: 315px;
+    margin: 0px auto;
+    background-color: white;
+}
+input {
+    height: 30px;
+    width: 270px;
+    margin: 10px 0px;
+    padding: 0px 5px;
+    border-radius: 3px;
+    border: solid #eee 2px;
+}
+button {
+    height: 35px;
+    padding: 0px;
+    margin: 15px 0px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    background-color: #ff0000;
+    border: none;
+    opacity: .5;
+}
+h1 {
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+p {
+    margin-top: 5px;
+}
+.close {
+    height: 1px;
+    width: 1px;
+    margin: 0px 20px;
+    float: right;
+    clear: both;
+}
+button {
+    cursor: pointer;
+}

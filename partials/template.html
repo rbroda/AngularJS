@@ -1,0 +1,9 @@
+<div id="app" >
+    <form ng-submit="$ctrl.addItem($ctrl.todoItem);">
+        <h1>TODO List</h1>
+        <p>A place to store things you have to do!</p>
+        <task-list list="$ctrl.todoList"></task-list>
+        <input id="add" type="text" placeholder="Add your to-do" ng-model="$ctrl.todoItem">
+        <button>Add</button>
+    </form>
+</div>
