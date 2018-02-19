@@ -1,10 +1,10 @@
 <div id="app" >
     <form ng-submit="$ctrl.addItem($ctrl.item);">
-        <a href="#!/start"><i class="material-icons">arrow_back</i>Go Back</a>
+        <a href="#!/start" hover-links><i class="material-icons">arrow_back</i>Go Back</a>
         <h1>TODO List</h1>
         <p>A place to store things you have to do!</p>
         <task-list></task-list>
         <input id="add" type="text" placeholder="Add your to-do" ng-model="$ctrl.item">
-        <button>Add</button>
+        <button hover-button>Add</button>
     </form>
 </div>
