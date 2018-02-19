@@ -1,21 +1,15 @@
 (function () {
     var taskList = {
-        bindings: {
-            list: "<"
-        },
+        
         templateUrl: "partials/template2.html",
-        controller: function () {
-            vm = this;
+        controller: function (TaskService) {
+            var vm = this;
+            vm.tasksToDisplay = TaskService.getTask();
             vm.ClickX = function(bar) {
-                vm.list.splice(bar, 1);
+                vm.tasksToDisplay.splice(bar, 1);
             }
         }
     };
-
-
-
-
-
 
 
     angular.module("app")

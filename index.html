@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Page Title</title>
+        <title>Angular Lab</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -13,13 +13,17 @@
     </head>
 
     <body>
-        <task-form></task-form>
+        <ng-view></ng-view>
 
 
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-route.min.js"></script>
         <script src="module.js"></script>
+        <script src="config.js"></script>
         <script src="taskForm.js"></script>
         <script src="taskList.js"></script>
+        <script src="TaskService.js"></script>
+        <script src="start.js"></script>
         <script src="hoverState.directive.js"></script>
     </body>
 

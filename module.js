@@ -1,5 +1,5 @@
 (function() {
     //setter syntax
     angular
-        .module("app", []);
+        .module("app", ["ngRoute"]);
 })();

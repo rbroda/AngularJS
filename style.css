@@ -51,3 +51,28 @@ p {
 button {
     cursor: pointer;
 }
+#splashScreen {
+    width: 450px;
+    margin: 200px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    padding-bottom: 50px;
+}
+#splashScreen a {
+    float: right;
+    text-decoration: none;
+    align-content: center;
+    color: #ff69b4;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+a i {
+    vertical-align: middle;
+    font-size: 20px !important;
+}
+form a {
+    color: #ff69b4;
+    text-decoration: none;
+}

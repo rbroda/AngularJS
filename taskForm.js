@@ -2,11 +2,10 @@
     var taskForm = {
         templateUrl: "partials/template.html",
 
-        controller: function () {
+        controller: function (TaskService) {
             var vm = this;
-            vm.todoList = [];
-            vm.addItem = function (todoAdd){
-                vm.todoList.push(todoAdd);
+            vm.addItem = function (todoItem){
+                TaskService.setTask(todoItem);
                 document.getElementById("add").value = "";
                 };
             }
